@@ -1,0 +1,38 @@
+body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+    }
+    .navbar {
+      box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+    }
+    .movie-card, .review-card, .related-card {
+      background-color: rgba(255,255,255,0.05);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      backdrop-filter: blur(6px);
+    }
+    .movie-card img {
+      border-radius: 12px;
+      object-fit: cover;
+      max-height: 400px;
+      width: 100%;
+    }
+    .poster-gallery img {
+      height: 120px;
+      width: auto;
+      margin: 5px;
+      border-radius: 8px;
+      border: 2px solid #fff;
+    }
+    .review-card {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    .form-control, .form-select {
+      background-color: #fff !important;
+      color: #000 !important;
+    }
+    h2, h4, h5 {
+      color: #ffc107;
+    }

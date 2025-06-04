@@ -1,0 +1,31 @@
+body {
+      background: linear-gradient(to right, #232526, #414345);
+      color: #fff;
+    }
+    .navbar {
+      box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+    }
+    .card {
+      background-color: #1e2a38;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 15px rgba(255,255,255,0.1);
+    }
+    .card img {
+      height: 250px;
+      object-fit: cover;
+    }
+    h2 {
+      color: #ffc107;
+    }
+    .empty-message {
+      background-color: rgba(255,255,255,0.05);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      color: #ccc;
+    }
