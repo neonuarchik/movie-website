@@ -1,0 +1,21 @@
+{
+  "1": [
+    {
+      "author": "shekweas",
+      "text": "Жақсы кино!'",
+      "rating": 5
+    },
+    {
+      "author": "shekweas",
+      "text": "Норм, бірақ жақсырақ жасауға болушед'",
+      "rating": 3
+    }
+  ],
+  "2": [
+    {
+      "author": "shekweas",
+      "text": "норм",
+      "rating": 4
+    }
+  ]
+}
